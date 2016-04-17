@@ -20,13 +20,8 @@ shinyUI( pageWithSidebar(
         h4('You entered'),
         verbatimTextOutput("inputValue"),
         h4('Which is...'),
-        verbatimTextOutput("outputValue"),
-        h5('Please note that the application will continue running even
-           after you have guessed the number correctly. This is due to the
-           app developer\'s lack of skills/experience that has left this app
-           flawed. Apologies.'),
-        h5('For a more comprehensive, better and visually pleasing version of
-           this game (from an awesome developer), please go to this website: http://www.funbrain.com/guess/')
+        verbatimTextOutput("outputValue")
+        
         )
         )
 )
